@@ -1,9 +1,10 @@
 Dependencies Installation
 
-# Install dependencies for building from source
+**Install dependencies for building from source**
+```
 sudo apt update
 sudo apt install -y curl git jq lz4 build-essential
-
+```
 # Install Go
 sudo rm -rf /usr/local/go
 curl -L https://go.dev/dl/go1.22.7.linux-amd64.tar.gz | sudo tar -xzf - -C /usr/local
