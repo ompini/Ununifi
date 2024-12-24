@@ -20,11 +20,13 @@ Your Node Name
 Port prefix
 
 232
-# Clone project repository
+**Clone project repository**
+```
 cd && rm -rf chain
 git clone https://github.com/UnUniFi/chain
 cd chain
 git checkout v4.0.2
+```
 
 # Build binary
 make install
