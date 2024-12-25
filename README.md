@@ -28,8 +28,10 @@ cd chain
 git checkout v4.0.2
 ```
 
-# Build binary
+**Build binary**
+```
 make install
+```
 
 # Prepare cosmovisor directories
 mkdir -p $HOME/.ununifi/cosmovisor/genesis/bin
