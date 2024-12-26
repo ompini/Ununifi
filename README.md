@@ -33,10 +33,11 @@ git checkout v4.0.2
 make install
 ```
 
-# Prepare cosmovisor directories
+**Prepare cosmovisor directories**
+```
 mkdir -p $HOME/.ununifi/cosmovisor/genesis/bin
 ln -s $HOME/.ununifi/cosmovisor/genesis $HOME/.ununifi/cosmovisor/current -f
-
+```
 # Copy binary to cosmovisor directory
 cp $(which ununifid) $HOME/.ununifi/cosmovisor/genesis/bin
 
