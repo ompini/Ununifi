@@ -43,10 +43,12 @@ ln -s $HOME/.ununifi/cosmovisor/genesis $HOME/.ununifi/cosmovisor/current -f
 ```
 cp $(which ununifid) $HOME/.ununifi/cosmovisor/genesis/bin
 ```
-# Set node CLI configuration
+**Set node CLI configuration**
+```
 ununifid config chain-id ununifi-beta-v1
 ununifid config keyring-backend file
 ununifid config node tcp://localhost:23257
+```
 
 # Initialize the node
 ununifid init "Your Node Name" --chain-id ununifi-beta-v1
