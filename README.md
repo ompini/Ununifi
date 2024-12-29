@@ -50,8 +50,10 @@ ununifid config keyring-backend file
 ununifid config node tcp://localhost:23257
 ```
 
-# Initialize the node
+**Initialize the node**
+```
 ununifid init "Your Node Name" --chain-id ununifi-beta-v1
+```
 
 # Download genesis and addrbook files
 curl -L https://snapshots.nodejumper.io/ununifi/genesis.json > $HOME/.ununifi/config/genesis.json
