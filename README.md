@@ -13,13 +13,6 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.profile
 source .profile
 Node Installation
 ```
-
-Node Name
-
-Your Node Name
-Port prefix
-
-232
 **Clone project repository**
 ```
 cd && rm -rf chain
