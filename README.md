@@ -88,9 +88,10 @@ sed -i -e "s%:26658%:23258%; s%:26657%:23257%; s%:6060%:23260%; s%:26656%:23256%
 curl "https://snapshots.nodejumper.io/ununifi/ununifi_latest.tar.lz4" | lz4 -dc - | tar -xf - -C "$HOME/.ununifi"
 ```
 
-# Install Cosmovisor
+**Install Cosmovisor**
+```
 go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.7.0
-
+```
 # Create a service
 sudo tee /etc/systemd/system/ununifi.service > /dev/null << EOF
 [Unit]
