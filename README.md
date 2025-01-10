@@ -92,7 +92,9 @@ curl "https://snapshots.nodejumper.io/ununifi/ununifi_latest.tar.lz4" | lz4 -dc 
 ```
 go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.7.0
 ```
-# Create a service
+
+**Create a service**
+```
 sudo tee /etc/systemd/system/ununifi.service > /dev/null << EOF
 [Unit]
 Description=UnUniFi node service
@@ -113,7 +115,7 @@ WantedBy=multi-user.target
 EOF
 sudo systemctl daemon-reload
 sudo systemctl enable ununifi.service
-
+```
 # Start the service and check the logs
 sudo systemctl start ununifi.service
 sudo journalctl -u ununifi.service -f --no-hostname -o cat
