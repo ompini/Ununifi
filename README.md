@@ -203,3 +203,4 @@ sudo hostnamectl set-hostname YOUR_SERVERNAME
 Add project introduction
 Add feature highlights
 Add system prerequisites
+Add installation guide
