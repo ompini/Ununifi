@@ -204,3 +204,4 @@ Add project introduction
 Add feature highlights
 Add system prerequisites
 Add installation guide
+Add quick start guide
