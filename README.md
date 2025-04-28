@@ -209,3 +209,4 @@ Document test script creation
 Add test execution examples
 Add reporting features
 Add CI/CD integration guide
+Add performance optimization tips
