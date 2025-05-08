@@ -214,3 +214,4 @@ Add contributing guidelines
 Add code of conduct
 Add FAQ for testers
 Add troubleshooting guide
+Finalize README with resources
